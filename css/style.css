@@ -1,0 +1,425 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+}
+h1, h2 {
+    margin: 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-media a {
+    margin-right: 10px;
+}
+.tm-header{
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    
+}
+.tm-nav div ul li a:hover{
+    
+    color: #ec3c6a;
+}
+
+
+
+
+
+/* contact us */
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.google-map {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.hotel-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+.hotel {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.about-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-content {
+    margin-top: 30px;
+    text-align: justify;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+
+
+
+/* Faqs */
+
+.faq-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .faq-list {
+    margin-top: 30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+
+  .faq-item:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+
+
+/* Term and condi */
+
+.terms-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .terms-content {
+    margin-top: 30px;
+  }
+  
+  .terms-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .terms-content ol {
+    counter-reset: list;
+    padding-left: 20px;
+  }
+  
+  .terms-content li {
+    position: relative;
+    font-size: 16px;
+    color: #444;
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .terms-content li:before {
+    content: counter(list) ".";
+    counter-increment: list;
+    position: absolute;
+    left: -20px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .terms-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .terms-section h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  
+
+
+
+
+  .booking-services {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .booking-services img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .booking-services p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+
+
+  .detail-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.detail-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* rating */
+.ratings {
+    margin-top: 10px;
+}
+
+.stars {
+    color: gold; 
+}
+
+.rating-value {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.total-reviews {
+    margin-left: 5px;
+    color: #888;
+}
+
+
+
+
+
+/*detail  */
+
+
+.hotel-detaill {
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.hotel-detaill img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hotel-detaill h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hotel-detaill p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.ratings {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+}
+
+.rating-value {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.total-reviews {
+    color: #888;
+}
+
+.description h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.description ul {
+    padding-left: 20px;
+}
+
+.description ul li {
+    color: #555;
+    margin-bottom: 10px;
+}
+.hotel-detaill {
+    width: 25%;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+
+
+.hotel-detaill {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+.hotel-detaill {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .hotel-section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hotel-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 767px) {
+    .hotel-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
